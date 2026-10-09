@@ -576,6 +576,7 @@ img {
 }
 
 body > footer.bottom {
+    --pico-color: #FFFDF9B3;
     background-color: #1F1815;
     color: #FFFDF9B3;
     font-size: calc(var(--pico-font-size) * 0.8);

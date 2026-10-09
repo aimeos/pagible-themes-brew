@@ -44,7 +44,7 @@ class BrewDemo extends AbstractDemo
      */
     protected const PHOTOS = [
         'avocado-toast' => ['photo-1631311915775-e8f4250a7d4e', 'Avocado on rye', 'Avocado toast on dark rye bread served on a plate'],
-        'baker' => ['photo-1549057188-efd70413345e', 'Baker', 'Smiling woman shaping dough at a floured workbench'],
+        'baker' => ['photo-1549057188-efd70413345e', 'Baker', 'Smiling woman shaping dough at a floured workbench', 'left'],
         'barista-2' => ['photo-1569683236049-bc137196a02a', 'Roaster', 'Young man in a leather apron standing in a café'],
         'barista-3' => ['photo-1599000117587-9f2f56878366', 'Barista', 'Barista with curly black hair holding a milk pitcher'],
         'barista-5' => ['photo-1736901217577-8438e562922c', 'Café manager', 'Man with glasses and a moustache in a café'],
@@ -878,6 +878,7 @@ class BrewDemo extends AbstractDemo
                 'items' => [
                     ['name' => 'Owner', 'role' => 'Bistro in Leipzig-Connewitz', 'text' => 'Our guests ask about the coffee more than about the food. Samuel tasted our espresso every week until it was right.'],
                     ['name' => 'Office manager', 'role' => 'Software company, 120 people', 'text' => 'The cargo bike brings fresh beans every Monday, and the grinder check twice a year means the coffee stays good.'],
+                    ['name' => 'Breakfast manager', 'role' => 'Hotel in Leipzig-Plagwitz', 'text' => 'Our barista training came from Tamper & Crumb, and now even the night shift pulls a decent espresso. Guests buy the beans at checkout.'],
                 ],
             ]],
             ['id' => 'wholesale-request', 'type' => 'contact', 'group' => 'main', 'data' => [
@@ -1369,7 +1370,7 @@ SVG;
         $people = [
             ['Samuel Mensah', 'barista-5', "**Co-founder · Head of coffee**\nRoasts every Tuesday and cups every lot before we buy it."],
             ['Lena Vogt', 'baker', "**Co-founder · Head baker**\nLaminates the croissants and looks after a 10-year-old sourdough starter."],
-            ['Jonas Richter', 'barista-2', "**Roaster**\nRuns the 15 kg roaster and packs your subscription on Wednesdays."],
+            ['Thabo Nkosi', 'barista-2', "**Roaster · Subscriptions**\nRuns the 15 kg roaster and packs your subscription on Wednesdays."],
             ['Amaru Quispe', 'barista-3', "**Head barista · Trainer**\nTeaches our latte art classes and dials in the espresso every morning."],
         ];
 

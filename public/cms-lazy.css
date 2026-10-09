@@ -207,6 +207,7 @@ footer.cms-content + footer.bottom .container {
 footer.cms-content,
 footer.cms-content > :nth-child(odd) {
     --pico-color: #FFFDF9B3;
+    --pico-muted-color: #FFFDF9B3;
     background-color: #1F1815;
 }
 

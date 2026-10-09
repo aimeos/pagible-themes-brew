@@ -44,7 +44,7 @@ class BrewDemo extends AbstractDemo
      */
     protected const PHOTOS = [
         'avocado-toast' => ['photo-1631311915775-e8f4250a7d4e', 'Avocado on rye', 'Avocado toast on dark rye bread served on a plate'],
-        'baker' => ['photo-1549057188-efd70413345e', 'Baker', 'Smiling woman shaping dough at a floured workbench', 'left'],
+        'baker' => ['photo-1620039423059-58fe9a0ca20a', 'Baker', 'Woman serving fresh pastries at the bakery counter'],
         'barista-2' => ['photo-1569683236049-bc137196a02a', 'Roaster', 'Young man in a leather apron standing in a café'],
         'barista-3' => ['photo-1599000117587-9f2f56878366', 'Barista', 'Barista with curly black hair holding a milk pitcher'],
         'barista-5' => ['photo-1736901217577-8438e562922c', 'Café manager', 'Man with glasses and a moustache in a café'],
